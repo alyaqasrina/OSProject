@@ -77,7 +77,7 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** .
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
@@ -86,13 +86,14 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
 10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)*** 5971.0.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** 17516048 MB.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** ls provides a basic listing.
+ls -asl provides a detailed listing with information on file sizes, permissions, and ownership, including hidden files.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 2560 4K pages.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 2992.313MHz.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 2300 codespa+.
 
 ## Running your own container instance.
 
@@ -152,8 +153,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** No, files in a container are not inherently persistent.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** Yes, we can run two or three instances of Debian Linux by creating multiple containers.
 
 ## Running your own container with persistent storage
 
